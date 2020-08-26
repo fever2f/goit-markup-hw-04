@@ -68,6 +68,10 @@ a {
   color: inherit;
 }
 
+.current-color {
+  color: #2196f3;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -130,10 +134,6 @@ a {
   margin-right: 10px;
 }
 
-. .studio-link-current-color {
-  color: #2196f3;
-}
-
 .header-div {
   display: flex;
 }
@@ -183,7 +183,7 @@ a:active { background-color: yellow; } */
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #c4c4c4;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   height: 600px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -486,4 +486,33 @@ footer {
 .about-work-list {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-links-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  /* padding-left: 13px; */
+}
+
+.footer-svg {
+  fill: #fff;
+}
+
+.footer-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-container-1 {
+  margin-right: 70px;
 }
